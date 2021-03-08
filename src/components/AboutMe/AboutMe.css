@@ -1,0 +1,114 @@
+.aboutMe {
+  padding: 0 70px;
+}
+.mine {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 66px;
+}
+.mine__who {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 20px;
+  margin: 0 0 26px 0;
+}
+.mine__pic-box {
+  max-width: 270px;
+  max-height: 327px;
+}
+.mine__photo{
+  width: 100%;
+  object-fit: cover;
+  height: 100%;
+  border-radius: 10px;
+}
+.mine__description {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 22px;
+  margin: 0 0 99px 0;
+}
+.mine__name {
+  font-weight: 400;
+  font-size: 50px;
+  line-height: 58px;
+  letter-spacing: -0.04em;
+  margin: 0 0 18px 0;
+}
+
+.mine__info {
+  max-width: 600px;
+}
+.mine__link {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  color: #fff;
+  text-decoration: none;
+}
+.mine__link:not(:last-child) {
+  margin-right: 20px;
+}
+
+@media (max-width: 768px) {
+  .aboutMe {
+    padding: 0 50px;
+  }
+  .mine__name {
+    font-size: 40px;
+    line-height: 40px;
+    margin: 0 0 16px 0;
+  }
+  .mine__who {
+    font-size: 12px;
+    line-height: 18px;
+    margin: 0px 0 20px 0;
+  }
+  .mine__description {
+    font-size: 12px;
+    line-height: 18px;
+    margin: 0 0 87px 0;
+  }
+  .mine__info {
+    max-width: 364px;
+  }
+  .mine__pic-box {
+    max-width: 255px;
+    max-height: 307px;
+  }
+}
+@media (max-width: 600px )and (min-width: 320px) {
+  .aboutMe {
+    padding: 0 14px;
+  }
+  .mine {
+    flex-wrap: wrap;
+    margin-top: 60px;
+    justify-content: center;
+  }
+  .mine__info {
+    order: 2;
+  }
+  .mine__name {
+    font-size: 30px;
+    line-height: 36px;
+    margin: 40px 0 20px 0;
+  }
+  .mine__who {
+    font-size: 11px;
+    line-height: 16px;
+    margin: 0px 0 20px 0;
+  }
+  .mine__description {
+    font-size: 11px;
+    line-height: 16px;
+    margin: 0px 0 40px 0;
+  }
+  .mine__link:not(:last-child) {
+    margin-right: 26px;
+  }
+  .mine__pic-box {
+    max-width: 292px;
+    height: 352px;
+  }
+}

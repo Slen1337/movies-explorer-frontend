@@ -1,0 +1,106 @@
+@import url(./Logo/Logo.css);
+@import url(./HeaderMain/HeaderMain.css);
+@import url(./HeaderFix/HeaderFix.css);
+@import url(./HeaderBox/HeaderBox.css);
+
+
+.header {
+  max-width: 1140px;
+  margin: auto;
+  height: 74px;
+  box-sizing: content-box;
+  padding: 0 70px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+@media (min-width: 769px) and (max-width: 1920px) {
+  .header__content {
+    display: flex;
+    position: relative;
+    flex-direction: row;
+    width: 1060px;
+    justify-content: inherit;
+    padding-left: 46px;
+    align-items: center;
+}
+}
+
+.header__list{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+  text-decoration: none;
+  color: #fff;
+  padding: 0;
+  margin: 0;
+}
+.header__item_type_movies{
+margin-right: 20px;
+}
+.header__item_type_save{
+  margin-right: 50px;
+  }
+.header__link {
+  text-decoration: none;
+  color: #fff;
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 12px;
+}
+.header__link_type_logo {
+  background-color: #313131;
+  width: 26px;
+  height: 26px;
+  border-radius: 50px;
+  background-image: url(../../images/accIcon.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  margin-left: 7px;
+}
+.header__item_type_profile {
+    display: flex;
+    align-items: center;
+    padding-left: 74px;
+    margin: 0;
+}
+
+.header__link_type_signup {
+  margin-right: 30px;
+}
+.header__link_type_signin {
+  color: #000000;
+  background: #3ddc84;
+  border-radius: 3px;
+  padding: 8px 20px;
+}
+@media (max-width: 768px) {
+  .header {
+    padding: 0 30px;
+  }
+  .header__item_type_profile {
+    display: flex;
+    align-items: center;
+  }
+  .header__link {
+    font-size: 18px;
+    line-height: 15px;
+  }
+}
+@media (max-width: 320px) {
+  .header {
+    padding: 0 14px;
+  }
+  .header__link {
+    font-size: 18px;
+    line-height: 15px;
+  }
+  .header__link_type_signin {
+    padding: 5px 12px;
+  }
+  .header__link_type_signup {
+    margin-right: 14px;
+  }
+}

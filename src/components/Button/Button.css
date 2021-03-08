@@ -1,0 +1,15 @@
+@import url(./Burger/Burger.css);
+@import url(./FilterCheckbox/FilterCheckbox.css);
+
+
+.button {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  color: white;
+  outline: 0;
+  cursor: pointer;
+  border: 0;
+  border-radius: 10px;
+}
