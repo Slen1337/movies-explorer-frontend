@@ -1,0 +1,98 @@
+.user__menu {
+  display: flex;
+  list-style: none;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+}
+
+.user__menu-item {
+  display: flex;
+  align-items: center;
+  margin-left: 30px;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 16px;
+}
+
+.user__menu-item_login {
+  margin-left: 16px;
+}
+
+.user__link {
+  width: 30px;
+  height: 30px;
+}
+
+.user__link_login {
+  width: 76px;
+  height: 32px;
+}
+
+.user__button-signup {
+  color: #fff;
+  text-decoration: none;
+  font-size: 13px;
+  line-height: 12px;
+}
+
+.user__button-signup:hover {
+  transition: .4s ease-in-out;
+  color: #3ddc84;
+}
+
+.user__button-signin {
+  padding: 0;
+  box-sizing: border-box;
+  width: 76px;
+  height: 32px;
+  border-radius: 3px;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  background-color: #3ddc84;
+  font-size: 13px;
+  line-height: 12px;
+}
+
+.user__button-signin:hover {
+  opacity: .7;
+  color: #fff;
+  transition: opacity .3s ease-in-out;
+}
+
+.user__button-signin_login {
+  width: 26px;
+  height: 26px;
+  background-image: url(../../../images/accIcon.png);
+  background-position: center;
+  background-color: #313131;
+  background-repeat: no-repeat;
+  border-radius: 50px;
+  cursor: pointer;
+  top: 2px;
+  position: relative
+}
+.user__button-signin_login:hover {
+  background-color: #3ddc84;
+  opacity: .5;
+  transition: .4s ease-in-out;
+}
+
+
+@media all and (max-width: 600px) {
+  .user__button-signin {
+    width: 54px;
+    height: 26px;
+  }
+
+  .user__link_login {
+    width: 54px;
+    height: 26px;
+  }
+
+  .user__menu-item {
+    font-size: 10px;
+    margin-left: 14px;
+  }
+}

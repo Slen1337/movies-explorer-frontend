@@ -1,0 +1,21 @@
+.header__box {
+  width: 100%;
+  display: flex;
+  border-bottom: 1px solid #dadada;
+  box-sizing: border-box;
+}
+
+.header__box_title {
+  font-weight: normal;
+  font-size: 22px;
+  line-height: 27px;
+  letter-spacing: -0.04em;
+  padding: 0;
+}
+
+@media all and (max-width: 600px) {
+  .header__box_title {
+    font-size: 18px;
+    line-height: 22px;
+  }
+}
