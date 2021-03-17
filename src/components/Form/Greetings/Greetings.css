@@ -1,0 +1,47 @@
+.greetings__menu {
+  width: 396px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 70px 0 40px;
+}
+
+.greetings__menu_logo {
+  margin-bottom: 40px;
+  cursor: pointer;
+}
+
+.greetings__menu_logo:hover {
+  opacity: .8;
+  transition: opacity .3s ease-in-out;
+}
+
+.greetings__menu_title {
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 29px;
+  margin: 0;
+}
+
+@media all and (max-width: 800px) {
+  .greetings__menu {
+    padding: 0 0 40px;
+  }
+}
+
+@media all and (max-width: 600px) {
+  .greetings__menu {
+    width: 81.25%;
+}
+
+  .greetings__menu_logo {
+    margin-bottom: 50px;
+  }
+}
+
+@media all and (max-width: 320px) {
+  .greetings__menu {
+    width: 81.25%;
+    align-items: center;
+  }
+}
