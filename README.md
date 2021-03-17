@@ -3,7 +3,7 @@
 
 # Дипломный проект yandex.praktikum
 
-[https://api.movies1337.students.nomoredomains.monster]
+[https://api.slen1337.students.nomoredomains.monster]
 
 - Публичный IP 178.154.252.57
 
