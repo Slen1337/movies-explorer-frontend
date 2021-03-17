@@ -1,12 +1,23 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import { BrowserRouter } from 'react-router-dom';
 import './index.css';
+<<<<<<< Updated upstream
 import App from './App';
+=======
+import App from './components/App/App';
+>>>>>>> Stashed changes
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
   <React.StrictMode>
+<<<<<<< Updated upstream
     <App />
+=======
+    <BrowserRouter>
+      <App />
+    </BrowserRouter>
+>>>>>>> Stashed changes
   </React.StrictMode>,
   document.getElementById('root')
 );
